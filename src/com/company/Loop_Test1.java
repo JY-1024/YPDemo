@@ -13,6 +13,7 @@ public class Loop_Test1 {
             ge  = i % 10;
             if (bai * bai * bai + shi * shi * shi + ge * ge * ge == i) {
                 System.out.println("水仙花数: "+i);
+
             }
         }
     }
