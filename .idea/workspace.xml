@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ba468b4a-0e4f-4c07-8e6e-59531255b037" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/day11/demo01/MyInterface.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/day11/demo01/MyInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/day11/demo01/MyInterface.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -24,8 +23,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/day11/demo01/MyInterface.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="18" column="36" lean-forward="true" selection-start-line="18" selection-start-column="36" selection-end-line="18" selection-end-column="36" />
+            <state relative-caret-position="74">
+              <caret line="24" column="6" selection-start-line="24" selection-start-column="6" selection-end-line="24" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -93,8 +92,8 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="44" />
-    <option name="y" value="23" />
+    <option name="x" value="42" />
+    <option name="y" value="474" />
     <option name="width" value="1236" />
     <option name="height" value="326" />
   </component>
@@ -261,7 +260,7 @@
       <workItem from="1555644266307" duration="709000" />
       <workItem from="1555650723987" duration="3105000" />
       <workItem from="1555898859130" duration="11641000" />
-      <workItem from="1555938308457" duration="8120000" />
+      <workItem from="1555938308457" duration="8368000" />
     </task>
     <task id="LOCAL-00001" summary="首次提交">
       <created>1555555573447</created>
@@ -354,14 +353,21 @@
       <option name="project" value="LOCAL" />
       <updated>1555976002167</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="定义接口">
+      <created>1555976440279</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1555976440279</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33756000" />
+    <option name="totallyTimeSpent" value="34004000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="44" y="23" width="1236" height="326" extended-state="0" />
+    <frame x="44" y="474" width="1236" height="326" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4992248" visible="true" weight="0.17085427" />
@@ -407,7 +413,8 @@
     <MESSAGE value="商品超市" />
     <MESSAGE value="对象编程" />
     <MESSAGE value="抽象类" />
-    <option name="LAST_COMMIT_MESSAGE" value="抽象类" />
+    <MESSAGE value="定义接口" />
+    <option name="LAST_COMMIT_MESSAGE" value="定义接口" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/com/company/GuestNumber.java">
@@ -700,8 +707,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/day11/demo01/MyInterface.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="18" column="36" lean-forward="true" selection-start-line="18" selection-start-column="36" selection-end-line="18" selection-end-column="36" />
+        <state relative-caret-position="74">
+          <caret line="24" column="6" selection-start-line="24" selection-start-column="6" selection-end-line="24" selection-end-column="6" />
         </state>
       </provider>
     </entry>

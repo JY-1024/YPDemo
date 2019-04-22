@@ -9,11 +9,20 @@ package com.day11.demo01;
  *
  *  定义抽象方法：固定格式
  *      public abstract 返回值类型  方法名字（参数列表）;
+ *      修饰符public ，写或者不写，都是public
  *
  *  接口中的方法均为公共访问的抽象方法
  *  接口中无法定义普通的成员变量
+ *
+ *  接口中成员变量的定义
+ *      成员变量的定义，具体要求：
+ *      要求：必须定义为常量
+ *      固定格式：
+ *          public static final 数据类型 变量名 = 值
  */
 public interface MyInterface {
+
+    //public static final int a = 1;
 
     //在接口中，定义抽象方法
     public abstract void function();
