@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ba468b4a-0e4f-4c07-8e6e-59531255b037" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/day13/demo05/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/day13/demo05/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/day13/demo06/Outer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/day13/demo06/Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/day13/demo05/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/day13/demo05/Test.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -34,15 +35,36 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/day13/demo05/Test.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="98">
-              <caret line="27" column="27" selection-start-line="27" selection-start-column="27" selection-end-line="27" selection-end-column="27" />
+            <state relative-caret-position="41">
+              <caret line="31" column="41" lean-forward="true" selection-start-line="31" selection-start-column="41" selection-end-line="31" selection-end-column="41" />
               <folding>
-                <element signature="e#370#371#0" expanded="true" />
-                <element signature="e#386#387#0" expanded="true" />
+                <element signature="e#622#623#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/day13/demo06/Outer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="70">
+              <caret line="20" column="47" selection-start-line="20" selection-start-column="47" selection-end-line="20" selection-end-column="47" />
+              <folding>
+                <element signature="e#317#318#0" expanded="true" />
+                <element signature="e#361#362#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/day13/demo06/Test.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="118">
+              <caret line="13" column="19" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -67,8 +89,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/day11/demo01/MyInterfaceImpl.java" />
-        <option value="$PROJECT_DIR$/src/com/day11/demo01/Test.java" />
         <option value="$PROJECT_DIR$/src/com/day11/demo02/Test.java" />
         <option value="$PROJECT_DIR$/src/com/day11/demo02/MyInter.java" />
         <option value="$PROJECT_DIR$/src/com/day11/demo02/MyInterImpl.java" />
@@ -118,6 +138,8 @@
         <option value="$PROJECT_DIR$/src/com/day13/demo04/Test.java" />
         <option value="$PROJECT_DIR$/src/com/day13/demo05/Person.java" />
         <option value="$PROJECT_DIR$/src/com/day13/demo05/Test.java" />
+        <option value="$PROJECT_DIR$/src/com/day13/demo06/Outer.java" />
+        <option value="$PROJECT_DIR$/src/com/day13/demo06/Test.java" />
       </list>
     </option>
   </component>
@@ -128,8 +150,8 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="387" />
-    <option name="y" value="489" />
+    <option name="x" value="256" />
+    <option name="y" value="441" />
     <option name="width" value="887" />
     <option name="height" value="310" />
   </component>
@@ -173,7 +195,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="day13" type="462c0819:PsiDirectoryNode" />
-              <item name="demo05" type="462c0819:PsiDirectoryNode" />
+              <item name="demo06" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -320,7 +342,7 @@
       <workItem from="1555650723987" duration="3105000" />
       <workItem from="1555898859130" duration="11641000" />
       <workItem from="1555938308457" duration="9658000" />
-      <workItem from="1555997247980" duration="11982000" />
+      <workItem from="1555997247980" duration="12901000" />
     </task>
     <task id="LOCAL-00001" summary="首次提交">
       <created>1555555573447</created>
@@ -469,17 +491,24 @@
       <option name="project" value="LOCAL" />
       <updated>1556024701842</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="匿名对象的使用">
+      <created>1556025553317</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1556025553317</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="47276000" />
+    <option name="totallyTimeSpent" value="48195000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="381" y="490" width="887" height="310" extended-state="0" />
+    <frame x="256" y="441" width="887" height="310" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4992248" visible="true" weight="0.17869823" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4992248" visible="true" weight="0.17869823" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -530,23 +559,10 @@
     <MESSAGE value="多态" />
     <MESSAGE value="this,super用法" />
     <MESSAGE value="Static使用" />
-    <option name="LAST_COMMIT_MESSAGE" value="Static使用" />
+    <MESSAGE value="匿名对象的使用" />
+    <option name="LAST_COMMIT_MESSAGE" value="匿名对象的使用" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/day11/demo01/MyInterface.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="17" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/day11/demo01/MyInterfaceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/day11/demo01/Test.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -981,12 +997,29 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/day13/demo05/Test.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="98">
-          <caret line="27" column="27" selection-start-line="27" selection-start-column="27" selection-end-line="27" selection-end-column="27" />
+        <state relative-caret-position="41">
+          <caret line="31" column="41" lean-forward="true" selection-start-line="31" selection-start-column="41" selection-end-line="31" selection-end-column="41" />
           <folding>
-            <element signature="e#370#371#0" expanded="true" />
-            <element signature="e#386#387#0" expanded="true" />
+            <element signature="e#622#623#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/day13/demo06/Outer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="70">
+          <caret line="20" column="47" selection-start-line="20" selection-start-column="47" selection-end-line="20" selection-end-column="47" />
+          <folding>
+            <element signature="e#317#318#0" expanded="true" />
+            <element signature="e#361#362#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/day13/demo06/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="118">
+          <caret line="13" column="19" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
         </state>
       </provider>
     </entry>

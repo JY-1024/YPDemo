@@ -29,7 +29,7 @@ public class Test {
     }
 
     //调用方法 method，传递 Person 类型对象
-    public static void method(Person p){
+    public static void method(Person p) {
         p.eat();
     }
 }
