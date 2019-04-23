@@ -8,7 +8,14 @@ package com.day11.demo02;
  *  注意：public static final 修饰符，在接口的定义中，可以省略不写
  *  但是，不写不等于没有
  *  三个修饰符，还可以选择性书写
+ *
+ *  2。接口中的成员方法特点：
+ *  public abstract 返回值类型 方法名（参数列表）
+ *  修饰符 public abstract 可以不写，选择性书写
+ *  但是，写不写，都有
  */
 public interface MyInter {
     public static final int x = 3;
+
+    void show();
 }
