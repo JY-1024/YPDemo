@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ba468b4a-0e4f-4c07-8e6e-59531255b037" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/com/day16/demo01/RegexDemo1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/day16/demo01/RegexDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/day16/demo01/RegexDemo.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -29,11 +29,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/day16/demo01/RegexDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="82">
-              <caret line="17" column="19" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
+            <state relative-caret-position="62">
+              <caret line="19" selection-start-line="19" selection-end-line="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/day16/demo01/RegexDemo1.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="36">
+              <caret line="15" column="40" selection-start-line="15" selection-start-column="40" selection-end-line="15" selection-end-column="40" />
             </state>
           </provider>
         </entry>
@@ -67,7 +76,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/day11/demo07/Student.java" />
         <option value="$PROJECT_DIR$/src/com/day11/demo07/Tearcher.java" />
         <option value="$PROJECT_DIR$/src/com/day11/demo07/Test.java" />
         <option value="$PROJECT_DIR$/src/com/day12/demo01/demo01/Person.java" />
@@ -118,6 +126,7 @@
         <option value="$PROJECT_DIR$/src/com/day15/demo02/StringTest.java" />
         <option value="$PROJECT_DIR$/src/com/day15/demo02/StringBufferDemo.java" />
         <option value="$PROJECT_DIR$/src/com/day16/demo01/RegexDemo.java" />
+        <option value="$PROJECT_DIR$/src/com/day16/demo01/RegexDemo1.java" />
       </list>
     </option>
   </component>
@@ -128,7 +137,7 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="40" />
+    <option name="x" value="46" />
     <option name="y" value="486" />
     <option name="width" value="1234" />
     <option name="height" value="310" />
@@ -226,9 +235,22 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.RegexDemo">
+  <component name="RunManager" selected="Application.RegexDemo1">
     <configuration name="RegexDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.day16.demo01.RegexDemo" />
+      <module name="HelloWorld" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.day16.demo01.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RegexDemo1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.day16.demo01.RegexDemo1" />
       <module name="HelloWorld" />
       <extension name="coverage">
         <pattern>
@@ -246,19 +268,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.day15.demo02.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Test (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.day13.demo04.Test" />
-      <module name="HelloWorld" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.day13.demo04.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -294,11 +303,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.RegexDemo1" />
         <item itemvalue="Application.RegexDemo" />
         <item itemvalue="Application.StringTest" />
         <item itemvalue="Application.TestEquals" />
         <item itemvalue="Application.Test (3)" />
-        <item itemvalue="Application.Test (2)" />
       </list>
     </recent_temporary>
   </component>
@@ -322,7 +331,7 @@
       <workItem from="1555898859130" duration="11641000" />
       <workItem from="1555938308457" duration="9658000" />
       <workItem from="1555997247980" duration="13660000" />
-      <workItem from="1556071374015" duration="10254000" />
+      <workItem from="1556071374015" duration="11125000" />
     </task>
     <task id="LOCAL-00001" summary="首次提交">
       <created>1555555573447</created>
@@ -506,14 +515,21 @@
       <option name="project" value="LOCAL" />
       <updated>1556146448106</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="正则规则匹配">
+      <created>1556147094031</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1556147094032</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="59208000" />
+    <option name="totallyTimeSpent" value="60079000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="40" y="486" width="1234" height="310" extended-state="0" />
+    <frame x="46" y="486" width="1234" height="310" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4992248" visible="true" weight="0.15771812" />
@@ -572,20 +588,10 @@
     <MESSAGE value="面向对象，static，final，public等关键字的使用" />
     <MESSAGE value="String用法" />
     <MESSAGE value="正则规则" />
-    <option name="LAST_COMMIT_MESSAGE" value="正则规则" />
+    <MESSAGE value="正则规则匹配" />
+    <option name="LAST_COMMIT_MESSAGE" value="正则规则匹配" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/day11/demo07/Student.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="33" selection-start-line="5" selection-start-column="33" selection-end-line="5" selection-end-column="33" />
-          <folding>
-            <element signature="e#103#104#0" expanded="true" />
-            <element signature="e#139#140#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/day11/demo06/Test.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="145">
@@ -1000,13 +1006,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-10.0.1.jdk/Contents/Home/lib/src.zip!/java.base/java/lang/String.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1548">
-          <caret line="1833" column="18" selection-start-line="1833" selection-start-column="18" selection-end-line="1833" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/day15/demo02/StringBufferDemo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -1052,8 +1051,26 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/day16/demo01/RegexDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="82">
-          <caret line="17" column="19" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
+        <state relative-caret-position="62">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-10.0.1.jdk/Contents/Home/lib/src.zip!/java.base/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="2352" column="20" selection-start-line="2352" selection-start-column="20" selection-end-line="2352" selection-end-column="20" />
+          <folding>
+            <element signature="e#94126#94127#0" expanded="true" />
+            <element signature="e#94164#94165#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/day16/demo01/RegexDemo1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="15" column="40" selection-start-line="15" selection-start-column="40" selection-end-line="15" selection-end-column="40" />
         </state>
       </provider>
     </entry>
