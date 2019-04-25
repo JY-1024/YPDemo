@@ -1,5 +1,7 @@
 package com.day16.demo02;
 
+import java.util.Date;
+
 /**
  * 时间和日期类
  *  java.util.Date
@@ -17,8 +19,28 @@ package com.day16.demo02;
  */
 public class DateDemo {
     public static void main(String[] args) {
-       long time = System.currentTimeMillis();
-        System.out.println(time);
+//       long time = System.currentTimeMillis();
+//        System.out.println(time);
+//        function();
+        function_1();
     }
 
+    /**
+     * Date类的long参数的构造方法
+     * Date(long) 表示毫秒值
+     * 传递毫秒值，将毫秒值转成对应的日期对象
+     */
+    public static void function_1(){
+        Date date = new Date(0);
+        System.out.println(date);
+    }
+
+    /**
+     * Date类空参数构造方法
+     * 获取到的是，当前操作系统中的时间和日期
+     */
+    public static void function(){
+        Date date = new Date();
+        System.out.println(date);
+    }
 }
