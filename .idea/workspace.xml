@@ -23,8 +23,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/day16/demo02/DateDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="47">
-              <caret line="15" column="4" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
+            <state relative-caret-position="90">
+              <caret line="33" column="7" selection-start-line="33" selection-start-column="7" selection-end-line="33" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -110,10 +110,10 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="46" />
-    <option name="y" value="472" />
+    <option name="x" value="38" />
+    <option name="y" value="379" />
     <option name="width" value="1234" />
-    <option name="height" value="363" />
+    <option name="height" value="421" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -304,7 +304,7 @@
       <workItem from="1555898859130" duration="11641000" />
       <workItem from="1555938308457" duration="9658000" />
       <workItem from="1555997247980" duration="13660000" />
-      <workItem from="1556071374015" duration="13133000" />
+      <workItem from="1556071374015" duration="14055000" />
     </task>
     <task id="LOCAL-00001" summary="首次提交">
       <created>1555555573447</created>
@@ -523,14 +523,28 @@
       <option name="project" value="LOCAL" />
       <updated>1556161391644</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="毫秒值概念">
+      <created>1556161459377</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1556161459377</updated>
+    </task>
+    <task id="LOCAL-00033" summary="Date类">
+      <created>1556162031117</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1556162031117</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="62087000" />
+    <option name="totallyTimeSpent" value="63009000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="46" y="472" width="1234" height="363" extended-state="0" />
+    <frame x="38" y="379" width="1234" height="421" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4992248" visible="true" weight="0.15771812" />
@@ -542,7 +556,7 @@
       <window_info id="Favorites" order="6" sideWeight="0.5007752" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32957748" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.28782287" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.34954408" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -568,7 +582,6 @@
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="新增Random、Scanner类" />
     <MESSAGE value="寻找数组的最小值" />
     <MESSAGE value="集合、数组" />
     <MESSAGE value="水仙花数" />
@@ -593,7 +606,8 @@
     <MESSAGE value="正则规则字符串替换" />
     <MESSAGE value="正则规则邮箱校验" />
     <MESSAGE value="毫秒值概念" />
-    <option name="LAST_COMMIT_MESSAGE" value="毫秒值概念" />
+    <MESSAGE value="Date类" />
+    <option name="LAST_COMMIT_MESSAGE" value="Date类" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/com/day11/demo07/Test.java">
@@ -1093,8 +1107,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/day16/demo02/DateDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="47">
-          <caret line="15" column="4" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
+        <state relative-caret-position="90">
+          <caret line="33" column="7" selection-start-line="33" selection-start-column="7" selection-end-line="33" selection-end-column="7" />
         </state>
       </provider>
     </entry>

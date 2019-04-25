@@ -21,10 +21,35 @@ public class DateDemo {
     public static void main(String[] args) {
 //       long time = System.currentTimeMillis();
 //        System.out.println(time);
-//        function();
+        function();
         function_1();
+        function_2();
+        function_3();
     }
 
+    /**
+     * Date类方法setTime(long)传递毫秒值
+     * 将日期对象，设置到指定毫秒值上
+     * 毫秒值转成日期对象
+     *
+     * Date的构造方法也可以将毫秒值转为日期对象
+     */
+    public static void function_3(){
+        Date date = new Date();
+        date.setTime(0);
+        System.out.println(date);
+    }
+    /**
+     * Date类方法getTime()返回值long
+     * 返回的是毫秒值
+     * 将date表示的日期，转成毫秒值
+     * 日期和毫秒值转换
+     */
+    public static void function_2(){
+        Date date = new Date();
+        long time = date.getTime();
+        System.out.println(time);
+    }
     /**
      * Date类的long参数的构造方法
      * Date(long) 表示毫秒值
