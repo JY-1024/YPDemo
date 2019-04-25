@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ba468b4a-0e4f-4c07-8e6e-59531255b037" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/day18/demo/CollectionDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/day18/demo/IteratorDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -33,10 +33,10 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/day18/demo/CollectionDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="29">
+            <state relative-caret-position="300">
               <caret line="28" column="24" lean-forward="true" selection-start-line="28" selection-start-column="24" selection-end-line="28" selection-end-column="24" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -44,6 +44,19 @@
                 <element signature="e#561#569#0" expanded="true" />
                 <element signature="e#568#576#0" expanded="true" />
                 <element signature="e#489#497#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/day18/demo/IteratorDemo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="42" column="33" lean-forward="true" selection-start-line="42" selection-start-column="33" selection-end-line="42" selection-end-column="33" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#581#589#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -88,7 +101,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/day12/demo03/JavaEE.java" />
         <option value="$PROJECT_DIR$/src/com/day12/demo03/Net.java" />
         <option value="$PROJECT_DIR$/src/com/day12/demo03/Test.java" />
         <option value="$PROJECT_DIR$/src/com/day13/Zi.java" />
@@ -139,6 +151,7 @@
         <option value="$PROJECT_DIR$/src/com/day18/demo/Person.java" />
         <option value="$PROJECT_DIR$/src/com/day18/demo/ArrayListDemo.java" />
         <option value="$PROJECT_DIR$/src/com/day18/demo/CollectionDemo.java" />
+        <option value="$PROJECT_DIR$/src/com/day18/demo/IteratorDemo.java" />
       </list>
     </option>
   </component>
@@ -150,9 +163,9 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="41" />
-    <option name="y" value="154" />
+    <option name="y" value="222" />
     <option name="width" value="1234" />
-    <option name="height" value="646" />
+    <option name="height" value="578" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -247,7 +260,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.CollectionDemo">
+  <component name="RunManager" selected="Application.IteratorDemo">
     <configuration name="ArrayListDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.day18.demo.ArrayListDemo" />
       <module name="HelloWorld" />
@@ -300,12 +313,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IntegerDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.day17.demo01.IntegerDemo" />
+    <configuration name="IteratorDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.day18.demo.IteratorDemo" />
       <module name="HelloWorld" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.day17.demo01.*" />
+          <option name="PATTERN" value="com.day18.demo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -315,11 +328,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.IteratorDemo" />
         <item itemvalue="Application.CollectionDemo" />
         <item itemvalue="Application.ArrayListDemo" />
         <item itemvalue="Application.BigDecimalDemo" />
         <item itemvalue="Application.ArraysDemo" />
-        <item itemvalue="Application.IntegerDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -343,7 +356,7 @@
       <workItem from="1555898859130" duration="11641000" />
       <workItem from="1555938308457" duration="9658000" />
       <workItem from="1555997247980" duration="13660000" />
-      <workItem from="1556071374015" duration="25761000" />
+      <workItem from="1556071374015" duration="27301000" />
     </task>
     <task id="LOCAL-00001" summary="首次提交">
       <created>1555555573447</created>
@@ -653,17 +666,24 @@
       <option name="project" value="LOCAL" />
       <updated>1556184935268</updated>
     </task>
-    <option name="localTasksCounter" value="45" />
+    <task id="LOCAL-00045" summary="集合Collection的功能">
+      <created>1556187265447</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1556187265447</updated>
+    </task>
+    <option name="localTasksCounter" value="46" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="74715000" />
+    <option name="totallyTimeSpent" value="76255000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="41" y="411" width="1234" height="389" extended-state="0" />
+    <frame x="41" y="488" width="1234" height="312" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4992248" visible="true" weight="0.15771812" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4992248" visible="true" weight="0.15771812" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -672,7 +692,7 @@
       <window_info id="Favorites" order="6" sideWeight="0.5007752" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32957748" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.28956228" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.28956228" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -698,7 +718,6 @@
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="多态" />
     <MESSAGE value="this,super用法" />
     <MESSAGE value="Static使用" />
     <MESSAGE value="匿名对象的使用" />
@@ -723,16 +742,10 @@
     <MESSAGE value="Integer使用" />
     <MESSAGE value="BigDecimal、Arrays的使用" />
     <MESSAGE value="ArrayList集合" />
-    <option name="LAST_COMMIT_MESSAGE" value="ArrayList集合" />
+    <MESSAGE value="集合Collection的功能" />
+    <option name="LAST_COMMIT_MESSAGE" value="集合Collection的功能" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/day12/demo03/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/day13/demo04/Fu.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -1213,7 +1226,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/day18/demo/CollectionDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="29">
+        <state relative-caret-position="300">
           <caret line="28" column="24" lean-forward="true" selection-start-line="28" selection-start-column="24" selection-end-line="28" selection-end-column="24" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1221,6 +1234,17 @@
             <element signature="e#561#569#0" expanded="true" />
             <element signature="e#568#576#0" expanded="true" />
             <element signature="e#489#497#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/day18/demo/IteratorDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="42" column="33" lean-forward="true" selection-start-line="42" selection-start-column="33" selection-end-line="42" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#581#589#0" expanded="true" />
           </folding>
         </state>
       </provider>
