@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ba468b4a-0e4f-4c07-8e6e-59531255b037" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/day16/demo04/DateTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/day17/demo01/IntegerDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/day17/demo02/Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -20,26 +21,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/day16/demo03/CalendarDemo1.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="537">
-              <caret line="46" column="24" lean-forward="true" selection-start-line="46" selection-start-column="24" selection-end-line="46" selection-end-column="24" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/day16/demo04/DateTest.java">
+        <entry file="file://$PROJECT_DIR$/src/com/day17/demo01/IntegerDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="20">
-              <caret line="37" column="16" selection-start-line="37" selection-start-column="16" selection-end-line="37" selection-end-column="16" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="118">
+              <caret line="29" column="5" lean-forward="true" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -64,8 +50,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/day12/demo01/APerson.java" />
-        <option value="$PROJECT_DIR$/src/com/day12/demo02/Person.java" />
         <option value="$PROJECT_DIR$/src/com/day12/demo02/Worker.java" />
         <option value="$PROJECT_DIR$/src/com/day12/demo02/Student.java" />
         <option value="$PROJECT_DIR$/src/com/day12/demo02/Test.java" />
@@ -115,6 +99,8 @@
         <option value="$PROJECT_DIR$/src/com/day16/demo03/CalendarDemo.java" />
         <option value="$PROJECT_DIR$/src/com/day16/demo03/CalendarDemo1.java" />
         <option value="$PROJECT_DIR$/src/com/day16/demo04/DateTest.java" />
+        <option value="$PROJECT_DIR$/src/com/day17/demo02/Test.java" />
+        <option value="$PROJECT_DIR$/src/com/day17/demo01/IntegerDemo.java" />
       </list>
     </option>
   </component>
@@ -124,11 +110,11 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds">
     <option name="x" value="41" />
-    <option name="y" value="96" />
+    <option name="y" value="484" />
     <option name="width" value="1234" />
-    <option name="height" value="704" />
+    <option name="height" value="316" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -163,15 +149,15 @@
               <item name="HelloWorld" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="day16" type="462c0819:PsiDirectoryNode" />
+              <item name="day17" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="HelloWorld" type="b2602c69:ProjectViewProjectNode" />
               <item name="HelloWorld" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="day16" type="462c0819:PsiDirectoryNode" />
-              <item name="demo04" type="462c0819:PsiDirectoryNode" />
+              <item name="day17" type="462c0819:PsiDirectoryNode" />
+              <item name="demo01" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -223,7 +209,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.DateTest">
+  <component name="RunManager" selected="Application.IntegerDemo">
     <configuration name="CalendarDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.day16.demo03.CalendarDemo" />
       <module name="HelloWorld" />
@@ -263,12 +249,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SimpleDateFormatDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.day16.demo02.SimpleDateFormatDemo" />
+    <configuration name="IntegerDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.day17.demo01.IntegerDemo" />
       <module name="HelloWorld" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.day16.demo02.*" />
+          <option name="PATTERN" value="com.day17.demo01.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -291,11 +277,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.IntegerDemo" />
         <item itemvalue="Application.DateTest" />
         <item itemvalue="Application.CalendarDemo1" />
         <item itemvalue="Application.CalendarDemo" />
         <item itemvalue="Application.SimpleDateFormatDemo1" />
-        <item itemvalue="Application.SimpleDateFormatDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -319,7 +305,7 @@
       <workItem from="1555898859130" duration="11641000" />
       <workItem from="1555938308457" duration="9658000" />
       <workItem from="1555997247980" duration="13660000" />
-      <workItem from="1556071374015" duration="18469000" />
+      <workItem from="1556071374015" duration="20542000" />
     </task>
     <task id="LOCAL-00001" summary="首次提交">
       <created>1555555573447</created>
@@ -594,14 +580,28 @@
       <option name="project" value="LOCAL" />
       <updated>1556168671577</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="Date练习">
+      <created>1556169506716</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1556169506716</updated>
+    </task>
+    <task id="LOCAL-00041" summary="计算闰年方法">
+      <created>1556170010868</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1556170010868</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="67423000" />
+    <option name="totallyTimeSpent" value="69496000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="41" y="502" width="1234" height="298" extended-state="0" />
+    <frame x="41" y="484" width="1234" height="316" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4992248" visible="true" weight="0.15771812" />
@@ -613,7 +613,7 @@
       <window_info id="Favorites" order="6" sideWeight="0.5007752" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32957748" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.33009708" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.33039647" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -639,8 +639,6 @@
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="定义接口" />
-    <MESSAGE value="接口中定义成员变量，常量" />
     <MESSAGE value="接口的实现" />
     <MESSAGE value="接口中成员的特点" />
     <MESSAGE value="接口的实现和多继承" />
@@ -664,38 +662,11 @@
     <MESSAGE value="Calendar中的get方法" />
     <MESSAGE value="Calendar中的set方法" />
     <MESSAGE value="Calendar中的add方法,Calendar转Date类型" />
-    <option name="LAST_COMMIT_MESSAGE" value="Calendar中的add方法,Calendar转Date类型" />
+    <MESSAGE value="Date练习" />
+    <MESSAGE value="计算闰年方法" />
+    <option name="LAST_COMMIT_MESSAGE" value="计算闰年方法" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/day12/demo02/Student.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
-          <folding>
-            <element signature="e#106#107#0" expanded="true" />
-            <element signature="e#138#139#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/day12/demo02/Worker.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-          <folding>
-            <element signature="e#104#105#0" expanded="true" />
-            <element signature="e#136#137#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/day12/demo02/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="5" lean-forward="true" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/day13/Fu.java" />
     <entry file="file://$PROJECT_DIR$/src/com/day13/Zi.java" />
     <entry file="file://$PROJECT_DIR$/src/com/day12/demo03/Employee.java">
@@ -1159,13 +1130,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/day17/demo02/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/day16/demo04/DateTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="20">
-          <caret line="37" column="16" selection-start-line="37" selection-start-column="16" selection-end-line="37" selection-end-column="16" />
+        <state relative-caret-position="103">
+          <caret line="18" column="7" lean-forward="true" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-10.0.1.jdk/Contents/Home/lib/src.zip!/java.base/java/lang/Integer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="768" column="22" selection-start-line="768" selection-start-column="22" selection-end-line="768" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/day17/demo01/IntegerDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="118">
+          <caret line="29" column="5" lean-forward="true" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
         </state>
       </provider>
     </entry>
