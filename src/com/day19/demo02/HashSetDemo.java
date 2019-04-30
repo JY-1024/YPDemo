@@ -12,7 +12,7 @@ import java.util.Set;
  */
 public class HashSetDemo {
     public static void main(String[] args) {
-        Set<String> set = new HashSet<>();
+        Set<String> set = new HashSet<String>();
         set.add("cn");
         set.add("itcast");
         set.add("heima");

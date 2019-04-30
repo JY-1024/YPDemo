@@ -2,8 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ba468b4a-0e4f-4c07-8e6e-59531255b037" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/day19/demo02/HashSetDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/day19/Demo01/LinkedListDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/day19/demo02/HashSetDemo1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/day19/demo03/HashDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/day19/demo03/LinkedHashSetDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/day19/demo03/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/day21/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/day21/demo/ExceptionDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/day19/demo02/HashSetDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/day19/demo02/HashSetDemo.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -21,12 +28,12 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/day19/demo02/HashSetDemo.java">
+        <entry file="file://$PROJECT_DIR$/src/com/day19/demo03/LinkedHashSetDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="27" column="34" selection-start-line="27" selection-start-column="34" selection-end-line="27" selection-end-column="34" />
+            <state relative-caret-position="264">
+              <caret line="18" column="21" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#303#312#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -52,12 +59,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/day13/Zi.java" />
-        <option value="$PROJECT_DIR$/src/com/day13/demo04/Fu.java" />
-        <option value="$PROJECT_DIR$/src/com/day13/demo04/Zi.java" />
-        <option value="$PROJECT_DIR$/src/com/day13/demo04/Test.java" />
-        <option value="$PROJECT_DIR$/src/com/day13/demo05/Person.java" />
-        <option value="$PROJECT_DIR$/src/com/day13/demo05/Test.java" />
         <option value="$PROJECT_DIR$/src/com/day13/demo06/Outer.java" />
         <option value="$PROJECT_DIR$/src/com/day13/demo06/Test.java" />
         <option value="$PROJECT_DIR$/src/com/day13/demo07/Test.java" />
@@ -102,7 +103,13 @@
         <option value="$PROJECT_DIR$/src/com/day18/demo/CollectionDemo.java" />
         <option value="$PROJECT_DIR$/src/com/day18/demo/IteratorDemo.java" />
         <option value="$PROJECT_DIR$/src/com/day19/Demo01/ListDemo.java" />
+        <option value="$PROJECT_DIR$/src/com/day19/demo02/HashSetDemo1.java" />
+        <option value="$PROJECT_DIR$/src/com/day19/demo03/HashDemo.java" />
+        <option value="$PROJECT_DIR$/src/com/day19/demo03/Person.java" />
+        <option value="$PROJECT_DIR$/src/com/day21/demo/ExceptionDemo.java" />
+        <option value="$PROJECT_DIR$/src/com/day19/Demo01/LinkedListDemo.java" />
         <option value="$PROJECT_DIR$/src/com/day19/demo02/HashSetDemo.java" />
+        <option value="$PROJECT_DIR$/src/com/day19/demo03/LinkedHashSetDemo.java" />
       </list>
     </option>
   </component>
@@ -113,10 +120,10 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="46" />
-    <option name="y" value="150" />
+    <option name="x" value="42" />
+    <option name="y" value="262" />
     <option name="width" value="1234" />
-    <option name="height" value="602" />
+    <option name="height" value="538" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -126,6 +133,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -157,14 +166,27 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="day19" type="462c0819:PsiDirectoryNode" />
-              <item name="demo02" type="462c0819:PsiDirectoryNode" />
+              <item name="demo03" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HelloWorld" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HelloWorld" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="day21" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HelloWorld" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HelloWorld" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="day21" type="462c0819:PsiDirectoryNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -211,26 +233,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.HashSetDemo">
-    <configuration name="ArrayListDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.day18.demo.ArrayListDemo" />
+  <component name="RunManager" selected="Application.LinkedListDemo">
+    <configuration name="HashDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.day19.demo03.HashDemo" />
       <module name="HelloWorld" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.day18.demo.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CollectionDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.day18.demo.CollectionDemo" />
-      <module name="HelloWorld" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.day18.demo.*" />
+          <option name="PATTERN" value="com.day19.demo03.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -264,6 +273,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="LinkedListDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.day19.Demo01.LinkedListDemo" />
+      <module name="HelloWorld" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.day19.Demo01.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ListDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.day19.Demo01.ListDemo" />
       <module name="HelloWorld" />
@@ -279,11 +301,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.HashSetDemo" />
+        <item itemvalue="Application.LinkedListDemo" />
         <item itemvalue="Application.ListDemo" />
+        <item itemvalue="Application.HashDemo" />
+        <item itemvalue="Application.HashSetDemo" />
         <item itemvalue="Application.IteratorDemo" />
-        <item itemvalue="Application.CollectionDemo" />
-        <item itemvalue="Application.ArrayListDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -308,7 +330,8 @@
       <workItem from="1555938308457" duration="9658000" />
       <workItem from="1555997247980" duration="13660000" />
       <workItem from="1556071374015" duration="28896000" />
-      <workItem from="1556241668255" duration="860000" />
+      <workItem from="1556241668255" duration="3923000" />
+      <workItem from="1556593474476" duration="3211000" />
     </task>
     <task id="LOCAL-00001" summary="首次提交">
       <created>1555555573447</created>
@@ -639,17 +662,24 @@
       <option name="project" value="LOCAL" />
       <updated>1556241920182</updated>
     </task>
-    <option name="localTasksCounter" value="48" />
+    <task id="LOCAL-00048" summary="set接口">
+      <created>1556242826164</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1556242826164</updated>
+    </task>
+    <option name="localTasksCounter" value="49" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="78710000" />
+    <option name="totallyTimeSpent" value="84984000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="46" y="381" width="1234" height="371" extended-state="0" />
+    <frame x="42" y="262" width="1234" height="538" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4992248" visible="true" weight="0.1602349" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4992248" visible="true" weight="0.16275167" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -658,7 +688,7 @@
       <window_info id="Favorites" order="6" sideWeight="0.5007752" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32957748" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.33157894" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.29257643" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -668,7 +698,7 @@
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.10704225" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.13385826" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -684,7 +714,6 @@
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="匿名对象的使用" />
     <MESSAGE value="内部类的调用格式" />
     <MESSAGE value="面向对象，static，final，public等关键字的使用" />
     <MESSAGE value="String用法" />
@@ -709,75 +738,10 @@
     <MESSAGE value="集合Collection的功能" />
     <MESSAGE value="迭代器的使用和原理" />
     <MESSAGE value="集合" />
-    <option name="LAST_COMMIT_MESSAGE" value="集合" />
+    <MESSAGE value="set接口" />
+    <option name="LAST_COMMIT_MESSAGE" value="set接口" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/day13/demo05/Person.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="30" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
-          <folding>
-            <element signature="e#70#71#0" expanded="true" />
-            <element signature="e#106#107#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/day13/demo05/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="41">
-          <caret line="31" column="41" lean-forward="true" selection-start-line="31" selection-start-column="41" selection-end-line="31" selection-end-column="41" />
-          <folding>
-            <element signature="e#622#623#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/day13/demo06/Outer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="70">
-          <caret line="20" column="47" selection-start-line="20" selection-start-column="47" selection-end-line="20" selection-end-column="47" />
-          <folding>
-            <element signature="e#317#318#0" expanded="true" />
-            <element signature="e#361#362#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/day13/demo06/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="19" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/day13/demo07/Outer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="33" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/day13/demo07/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/day14/demo02/MathTools.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-          <folding>
-            <element signature="e#83#84#0" expanded="true" />
-            <element signature="e#107#108#0" expanded="true" />
-            <element signature="e#148#149#0" expanded="true" />
-            <element signature="e#173#174#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/day14/demo02/CXF.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="59">
@@ -1193,10 +1157,31 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/day19/demo03/Person.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="32" column="18" selection-start-line="32" selection-start-column="18" selection-end-line="32" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/day21/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/day21/demo/ExceptionDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="107">
+          <caret line="9" column="30" lean-forward="true" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/day19/Demo01/ListDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-131">
-          <caret line="21" column="20" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="20" />
+        <state relative-caret-position="105">
+          <caret line="24" column="46" selection-start-line="24" selection-start-column="46" selection-end-line="24" selection-end-column="46" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#319#320#0" expanded="true" />
@@ -1205,12 +1190,52 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/day19/demo02/HashSetDemo.java">
+    <entry file="file://$PROJECT_DIR$/src/com/day19/Demo01/LinkedListDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="27" column="34" selection-start-line="27" selection-start-column="34" selection-end-line="27" selection-end-column="34" />
+        <state relative-caret-position="230">
+          <caret line="33" selection-start-line="33" selection-end-line="33" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#208#209#0" expanded="true" />
+            <element signature="e#234#235#0" expanded="true" />
+            <element signature="e#410#418#0" expanded="true" />
+            <element signature="e#392#400#0" expanded="true" />
+            <element signature="e#390#398#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/day19/demo02/HashSetDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="28" column="9" lean-forward="true" selection-start-line="28" selection-start-column="9" selection-end-line="28" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#327#335#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/day19/demo02/HashSetDemo1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="149">
+          <caret line="10" column="44" lean-forward="true" selection-start-line="10" selection-start-column="44" selection-end-line="10" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/day19/demo03/HashDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="97">
+          <caret line="10" column="30" lean-forward="true" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/day19/demo03/LinkedHashSetDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="18" column="21" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
+          <folding>
+            <element signature="e#303#312#0" expanded="true" />
           </folding>
         </state>
       </provider>
