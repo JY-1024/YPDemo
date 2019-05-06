@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ba468b4a-0e4f-4c07-8e6e-59531255b037" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/day21/demo02/ExceptionDemo1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/day21/demo02/CustomExceptionDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/day21/demo02/FuShuException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,44 +22,32 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/day21/demo/ExceptionDemo4.java">
+        <entry file="file://$PROJECT_DIR$/src/com/day21/demo02/ExceptionDemo1.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="29" lean-forward="true" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="29" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/day21/demo02/RuntimeExceptionDemo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="38">
-              <caret line="3" column="3" selection-start-line="3" selection-start-column="3" selection-end-line="3" selection-end-column="21" />
-              <folding>
-                <element signature="e#300#301#0" expanded="true" />
-                <element signature="e#326#327#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/day21/demo02/ExceptionDemo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="18">
-              <caret line="5" column="22" lean-forward="true" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
+            <state relative-caret-position="-54">
+              <caret line="4" column="18" lean-forward="true" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/day21/demo02/ExceptionDemo1.java">
+        <entry file="file://$PROJECT_DIR$/src/com/day21/demo02/CustomExceptionDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="86">
-              <caret line="17" column="9" lean-forward="true" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
+            <state relative-caret-position="40">
+              <caret line="17" column="44" selection-start-line="17" selection-start-column="44" selection-end-line="17" selection-end-column="44" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/day21/demo02/FuShuException.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="42">
+              <caret line="7" column="29" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
+              <folding>
+                <element signature="e#171#172#0" expanded="true" />
+                <element signature="e#201#202#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -82,8 +72,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/day14/hotel/Test.java" />
-        <option value="$PROJECT_DIR$/src/com/day15/demo01/Test.java" />
         <option value="$PROJECT_DIR$/src/com/day15/demo01/TestEquals.java" />
         <option value="$PROJECT_DIR$/src/com/day15/demo01/Person.java" />
         <option value="$PROJECT_DIR$/src/com/day15/demo01/TestToString.java" />
@@ -133,6 +121,8 @@
         <option value="$PROJECT_DIR$/src/com/day21/demo02/RuntimeExceptionDemo.java" />
         <option value="$PROJECT_DIR$/src/com/day21/demo02/ExceptionDemo.java" />
         <option value="$PROJECT_DIR$/src/com/day21/demo02/ExceptionDemo1.java" />
+        <option value="$PROJECT_DIR$/src/com/day21/demo02/FuShuException.java" />
+        <option value="$PROJECT_DIR$/src/com/day21/demo02/CustomExceptionDemo.java" />
       </list>
     </option>
   </component>
@@ -143,10 +133,10 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="46" />
-    <option name="y" value="518" />
+    <option name="x" value="43" />
+    <option name="y" value="500" />
     <option name="width" value="1234" />
-    <option name="height" value="293" />
+    <option name="height" value="300" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -241,13 +231,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ExceptionDemo1 (1)">
-    <configuration name="CollectionsDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.day20.demo4.CollectionsDemo" />
+  <component name="RunManager" selected="Application.CustomExceptionDemo">
+    <configuration name="CustomExceptionDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.day21.demo02.CustomExceptionDemo" />
       <module name="HelloWorld" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.day20.demo4.*" />
+          <option name="PATTERN" value="com.day21.demo02.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -309,11 +299,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CustomExceptionDemo" />
         <item itemvalue="Application.ExceptionDemo1 (1)" />
         <item itemvalue="Application.ExceptionDemo3" />
         <item itemvalue="Application.ExceptionDemo1" />
         <item itemvalue="Application.DouDiZhu" />
-        <item itemvalue="Application.CollectionsDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -343,14 +333,7 @@
       <workItem from="1556693294763" duration="1308000" />
       <workItem from="1557021037484" duration="2081000" />
       <workItem from="1557039085264" duration="2504000" />
-      <workItem from="1557107906048" duration="4589000" />
-    </task>
-    <task id="LOCAL-00009" summary="商品超市">
-      <created>1555917219576</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1555917219576</updated>
+      <workItem from="1557107906048" duration="5932000" />
     </task>
     <task id="LOCAL-00010" summary="对象编程">
       <created>1555922982012</created>
@@ -688,14 +671,21 @@
       <option name="project" value="LOCAL" />
       <updated>1557113843866</updated>
     </task>
-    <option name="localTasksCounter" value="58" />
+    <task id="LOCAL-00058" summary="/**&#10; * Throwable类中的方法&#10; * 三个方法，都和异常的信息有关系&#10; *  String getMessage() 对异常信息的详细描述&#10; *  String toString()   对异常信息的简短描述&#10; *  void printStackTrace() 将异常信息追踪到标准的错误流&#10; */">
+      <created>1557114335256</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1557114335259</updated>
+    </task>
+    <option name="localTasksCounter" value="59" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="99851000" />
+    <option name="totallyTimeSpent" value="101194000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="46" y="518" width="1234" height="293" extended-state="0" />
+    <frame x="43" y="500" width="1234" height="300" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4992248" visible="true" weight="0.1728188" />
@@ -707,7 +697,7 @@
       <window_info id="Favorites" order="6" sideWeight="0.5007752" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32931727" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.38914028" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3880597" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -733,7 +723,6 @@
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Date类" />
     <MESSAGE value="Date类 日期与毫秒值之间的相互转换" />
     <MESSAGE value="日期的格式化" />
     <MESSAGE value="字符串转日期类型" />
@@ -758,27 +747,10 @@
     <MESSAGE value="        SimpleDateFormat sdf = new SimpleDateFormat(&quot;yyyy-MM-dd&quot;);&#10;        Date date = sdf.parse(&quot;2088-8-8&quot;);&#10;        System.out.println(date);&#10;        &#10; parse抛出异常处理" />
     <MESSAGE value="异常分为 编译异常 和 运行时期异常" />
     <MESSAGE value="/**&#10; * 继承后，在子类重写父类方法的时候，异常处理&#10; * 结论：&#10; *  父类的方法，如果抛出异常，子类重写后&#10; *      子类可以不抛出异常&#10; *      也可以抛出异常，但是，如果子类要抛，抛出的异常不能大于父类的异常&#10; *          大于，都指的是继承关系&#10; *&#10; *&#10; *      父类的方法，没有异常抛出，子类重写后&#10; *          子类也不能抛出异常&#10; *          如果子类中调用了抛出异常的方法，别无选择，只能try。。。catch处理&#10; */" />
-    <option name="LAST_COMMIT_MESSAGE" value="/**&#10; * 继承后，在子类重写父类方法的时候，异常处理&#10; * 结论：&#10; *  父类的方法，如果抛出异常，子类重写后&#10; *      子类可以不抛出异常&#10; *      也可以抛出异常，但是，如果子类要抛，抛出的异常不能大于父类的异常&#10; *          大于，都指的是继承关系&#10; *&#10; *&#10; *      父类的方法，没有异常抛出，子类重写后&#10; *          子类也不能抛出异常&#10; *          如果子类中调用了抛出异常的方法，别无选择，只能try。。。catch处理&#10; */" />
+    <MESSAGE value="/**&#10; * Throwable类中的方法&#10; * 三个方法，都和异常的信息有关系&#10; *  String getMessage() 对异常信息的详细描述&#10; *  String toString()   对异常信息的简短描述&#10; *  void printStackTrace() 将异常信息追踪到标准的错误流&#10; */" />
+    <option name="LAST_COMMIT_MESSAGE" value="/**&#10; * Throwable类中的方法&#10; * 三个方法，都和异常的信息有关系&#10; *  String getMessage() 对异常信息的详细描述&#10; *  String toString()   对异常信息的简短描述&#10; *  void printStackTrace() 将异常信息追踪到标准的错误流&#10; */" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/day16/demo01/RegexDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="62">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-10.0.1.jdk/Contents/Home/lib/src.zip!/java.base/java/lang/String.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="2352" column="20" selection-start-line="2352" selection-start-column="20" selection-end-line="2352" selection-end-column="20" />
-          <folding>
-            <element signature="e#94126#94127#0" expanded="true" />
-            <element signature="e#94164#94165#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/day16/demo01/RegexDemo1.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-8">
@@ -1220,8 +1192,26 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/day21/demo02/ExceptionDemo1.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="86">
-          <caret line="17" column="9" lean-forward="true" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
+        <state relative-caret-position="-54">
+          <caret line="4" column="18" lean-forward="true" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/day21/demo02/FuShuException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="7" column="29" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
+          <folding>
+            <element signature="e#171#172#0" expanded="true" />
+            <element signature="e#201#202#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/day21/demo02/CustomExceptionDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40">
+          <caret line="17" column="44" selection-start-line="17" selection-start-column="44" selection-end-line="17" selection-end-column="44" />
         </state>
       </provider>
     </entry>
