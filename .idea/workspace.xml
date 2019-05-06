@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ba468b4a-0e4f-4c07-8e6e-59531255b037" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/day21/demo/ExceptionDemo1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/day21/demo/ExceptionDemo2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -29,11 +29,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/day21/demo/ExceptionDemo1.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="3" column="15" selection-start-line="3" selection-start-column="15" selection-end-line="3" selection-end-column="15" />
+            <state relative-caret-position="117">
+              <caret line="9" column="34" lean-forward="true" selection-start-line="9" selection-start-column="34" selection-end-line="9" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/day21/demo/ExceptionDemo2.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="260">
+              <caret line="31" column="27" lean-forward="true" selection-start-line="31" selection-start-column="27" selection-end-line="31" selection-end-column="27" />
             </state>
           </provider>
         </entry>
@@ -58,7 +67,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/day14/classess/GetPerson.java" />
         <option value="$PROJECT_DIR$/src/com/day14/hotel/VIP.java" />
         <option value="$PROJECT_DIR$/src/com/day14/hotel/Employee.java" />
         <option value="$PROJECT_DIR$/src/com/day14/hotel/ChuShi.java" />
@@ -109,6 +117,7 @@
         <option value="$PROJECT_DIR$/src/com/day20/demo5/MapMapDemo.java" />
         <option value="$PROJECT_DIR$/src/com/day20/demo6/DouDiZhu.java" />
         <option value="$PROJECT_DIR$/src/com/day21/demo/ExceptionDemo1.java" />
+        <option value="$PROJECT_DIR$/src/com/day21/demo/ExceptionDemo2.java" />
       </list>
     </option>
   </component>
@@ -120,9 +129,9 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="46" />
-    <option name="y" value="480" />
+    <option name="y" value="172" />
     <option name="width" value="1234" />
-    <option name="height" value="331" />
+    <option name="height" value="639" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -319,14 +328,7 @@
       <workItem from="1556693294763" duration="1308000" />
       <workItem from="1557021037484" duration="2081000" />
       <workItem from="1557039085264" duration="2504000" />
-      <workItem from="1557107906048" duration="1005000" />
-    </task>
-    <task id="LOCAL-00003" summary="新增Random、Scanner类">
-      <created>1555603641904</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1555603641905</updated>
+      <workItem from="1557107906048" duration="1902000" />
     </task>
     <task id="LOCAL-00004" summary="寻找数组的最小值">
       <created>1555643752152</created>
@@ -664,14 +666,21 @@
       <option name="project" value="LOCAL" />
       <updated>1557041310578</updated>
     </task>
-    <option name="localTasksCounter" value="52" />
+    <task id="LOCAL-00052" summary="try catch 异常捕获和多catch 使用">
+      <created>1557110549208</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1557110549209</updated>
+    </task>
+    <option name="localTasksCounter" value="53" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="96267000" />
+    <option name="totallyTimeSpent" value="97164000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="46" y="480" width="1234" height="331" extended-state="0" />
+    <frame x="46" y="172" width="1234" height="639" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4992248" visible="true" weight="0.1728188" />
@@ -683,7 +692,7 @@
       <window_info id="Favorites" order="6" sideWeight="0.5007752" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32931727" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.39637828" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.39330545" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -709,7 +718,6 @@
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="正则规则" />
     <MESSAGE value="正则规则匹配" />
     <MESSAGE value="正则规则字符串切割" />
     <MESSAGE value="正则规则字符串替换" />
@@ -734,28 +742,10 @@
     <MESSAGE value="hashSet集合" />
     <MESSAGE value="Collections的使用" />
     <MESSAGE value="扑克牌练习" />
-    <option name="LAST_COMMIT_MESSAGE" value="扑克牌练习" />
+    <MESSAGE value="try catch 异常捕获和多catch 使用" />
+    <option name="LAST_COMMIT_MESSAGE" value="try catch 异常捕获和多catch 使用" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/day15/demo01/Person.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="10" column="14" lean-forward="true" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
-          <folding>
-            <element signature="e#205#206#0" expanded="true" />
-            <element signature="e#239#240#0" expanded="true" />
-            <element signature="e#398#399#0" expanded="true" />
-            <element signature="e#425#426#0" expanded="true" />
-            <element signature="e#465#466#0" expanded="true" />
-            <element signature="e#497#498#0" expanded="true" />
-            <element signature="e#524#525#0" expanded="true" />
-            <element signature="e#550#551#0" expanded="true" />
-            <element signature="e#585#586#0" expanded="true" />
-            <element signature="e#615#616#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/day15/demo01/TestEquals.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -1209,8 +1199,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/day21/demo/ExceptionDemo1.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="3" column="15" selection-start-line="3" selection-start-column="15" selection-end-line="3" selection-end-column="15" />
+        <state relative-caret-position="117">
+          <caret line="9" column="34" lean-forward="true" selection-start-line="9" selection-start-column="34" selection-end-line="9" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/day21/demo/ExceptionDemo2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="31" column="27" lean-forward="true" selection-start-line="31" selection-start-column="27" selection-end-line="31" selection-end-column="27" />
         </state>
       </provider>
     </entry>
