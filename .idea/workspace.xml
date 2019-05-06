@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ba468b4a-0e4f-4c07-8e6e-59531255b037" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/day20/demo5/MapMapDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/day20/demo6/DouDiZhu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/day21/demo/ExceptionDemo1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -21,20 +20,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/day20/demo6/DouDiZhu.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/day21/demo/ExceptionDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="128">
-              <caret line="78" column="16" selection-start-line="78" selection-start-column="16" selection-end-line="78" selection-end-column="16" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#277#294#0" expanded="true" />
-                <element signature="e#405#414#0" expanded="true" />
-                <element signature="e#1208#1217#0" expanded="true" />
-                <element signature="e#1271#1280#0" expanded="true" />
-                <element signature="e#1334#1343#0" expanded="true" />
-                <element signature="e#1396#1405#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="-24">
+              <caret line="9" column="30" lean-forward="true" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/day21/demo/ExceptionDemo1.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="3" column="15" selection-start-line="3" selection-start-column="15" selection-end-line="3" selection-end-column="15" />
             </state>
           </provider>
         </entry>
@@ -59,7 +58,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/day14/classess/Test.java" />
         <option value="$PROJECT_DIR$/src/com/day14/classess/GetPerson.java" />
         <option value="$PROJECT_DIR$/src/com/day14/hotel/VIP.java" />
         <option value="$PROJECT_DIR$/src/com/day14/hotel/Employee.java" />
@@ -110,6 +108,7 @@
         <option value="$PROJECT_DIR$/src/com/day20/demo4/CollectionsDemo.java" />
         <option value="$PROJECT_DIR$/src/com/day20/demo5/MapMapDemo.java" />
         <option value="$PROJECT_DIR$/src/com/day20/demo6/DouDiZhu.java" />
+        <option value="$PROJECT_DIR$/src/com/day21/demo/ExceptionDemo1.java" />
       </list>
     </option>
   </component>
@@ -120,10 +119,10 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="39" />
-    <option name="y" value="211" />
+    <option name="x" value="46" />
+    <option name="y" value="480" />
     <option name="width" value="1234" />
-    <option name="height" value="589" />
+    <option name="height" value="331" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -134,6 +133,7 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -157,13 +157,20 @@
               <item name="HelloWorld" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="day20" type="462c0819:PsiDirectoryNode" />
+              <item name="day21" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HelloWorld" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HelloWorld" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="day21" type="462c0819:PsiDirectoryNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -210,7 +217,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.DouDiZhu">
+  <component name="RunManager" selected="Application.ExceptionDemo1">
     <configuration name="CollectionsDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.day20.demo4.CollectionsDemo" />
       <module name="HelloWorld" />
@@ -230,6 +237,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.day20.demo6.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ExceptionDemo1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.day21.demo.ExceptionDemo1" />
+      <module name="HelloWorld" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.day21.demo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -263,26 +283,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MapDemo1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.day20.demo1.MapDemo1" />
-      <module name="HelloWorld" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.day20.demo1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ExceptionDemo1" />
         <item itemvalue="Application.DouDiZhu" />
         <item itemvalue="Application.CollectionsDemo" />
         <item itemvalue="Application.LinkedHashMapDemo" />
         <item itemvalue="Application.HashMapDemo" />
-        <item itemvalue="Application.MapDemo1" />
       </list>
     </recent_temporary>
   </component>
@@ -311,14 +318,8 @@
       <workItem from="1556593474476" duration="7596000" />
       <workItem from="1556693294763" duration="1308000" />
       <workItem from="1557021037484" duration="2081000" />
-      <workItem from="1557039085264" duration="2070000" />
-    </task>
-    <task id="LOCAL-00002" summary="首次提交">
-      <created>1555555666397</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1555555666397</updated>
+      <workItem from="1557039085264" duration="2504000" />
+      <workItem from="1557107906048" duration="1005000" />
     </task>
     <task id="LOCAL-00003" summary="新增Random、Scanner类">
       <created>1555603641904</created>
@@ -656,17 +657,24 @@
       <option name="project" value="LOCAL" />
       <updated>1557022259077</updated>
     </task>
-    <option name="localTasksCounter" value="51" />
+    <task id="LOCAL-00051" summary="扑克牌练习">
+      <created>1557041310576</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1557041310578</updated>
+    </task>
+    <option name="localTasksCounter" value="52" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="94828000" />
+    <option name="totallyTimeSpent" value="96267000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="39" y="492" width="1234" height="308" extended-state="0" />
+    <frame x="46" y="480" width="1234" height="331" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4992248" visible="true" weight="0.17030202" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4992248" visible="true" weight="0.1728188" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -674,8 +682,8 @@
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" sideWeight="0.5007752" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32957748" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.2361111" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32931727" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.39637828" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -701,7 +709,6 @@
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="String用法" />
     <MESSAGE value="正则规则" />
     <MESSAGE value="正则规则匹配" />
     <MESSAGE value="正则规则字符串切割" />
@@ -726,16 +733,10 @@
     <MESSAGE value="set接口" />
     <MESSAGE value="hashSet集合" />
     <MESSAGE value="Collections的使用" />
-    <option name="LAST_COMMIT_MESSAGE" value="Collections的使用" />
+    <MESSAGE value="扑克牌练习" />
+    <option name="LAST_COMMIT_MESSAGE" value="扑克牌练习" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/day15/demo01/TestToString.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="30" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/day15/demo01/Person.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="126">
@@ -1031,13 +1032,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/day21/demo/ExceptionDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="107">
-          <caret line="9" column="30" lean-forward="true" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/day19/Demo01/ListDemo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -1198,17 +1192,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/day20/demo6/DouDiZhu.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
-          <caret line="78" column="16" selection-start-line="78" selection-start-column="16" selection-end-line="78" selection-end-column="16" />
+        <state relative-caret-position="75">
+          <caret line="72" column="34" selection-start-line="72" selection-start-column="34" selection-end-line="72" selection-end-column="34" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#277#294#0" expanded="true" />
-            <element signature="e#405#414#0" expanded="true" />
-            <element signature="e#1208#1217#0" expanded="true" />
-            <element signature="e#1271#1280#0" expanded="true" />
-            <element signature="e#1334#1343#0" expanded="true" />
-            <element signature="e#1396#1405#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/day21/demo/ExceptionDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-24">
+          <caret line="9" column="30" lean-forward="true" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/day21/demo/ExceptionDemo1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="3" column="15" selection-start-line="3" selection-start-column="15" selection-end-line="3" selection-end-column="15" />
         </state>
       </provider>
     </entry>
