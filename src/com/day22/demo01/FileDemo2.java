@@ -9,7 +9,7 @@ import java.io.IOException;
  */
 public class FileDemo2 {
     public static void main(String[] args) throws IOException {
-        function_2();
+        function_1();
     }
 
     /**
@@ -46,7 +46,7 @@ public class FileDemo2 {
      * 该方法只能创建文件，不能创建文件夹
      */
     public static void function() throws IOException {
-        File file = new File("/Users/jerry/Desktop/fileDemo/新建文件夹");
+        File file = new File("/Users/jerry/Desktop/fileDemo/a.txt");
         boolean b = file.createNewFile();
         System.out.println(b);
     }
