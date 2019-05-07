@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ba468b4a-0e4f-4c07-8e6e-59531255b037" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/day23/demo/FileOutputStreamDemo3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/day23/demo1/FileInputSteamDemo1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/day23/demo1/FileInputStreamDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/day23/demo1/InputStreamDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -21,31 +23,19 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/day23/demo/OutputStreamDemo.java">
+        <entry file="file://$PROJECT_DIR$/src/com/day23/demo1/InputStreamDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="93">
-              <caret line="21" column="1" lean-forward="true" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
+            <state relative-caret-position="57">
+              <caret line="8" column="42" selection-start-line="8" selection-start-column="42" selection-end-line="8" selection-end-column="42" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/day23/demo/FileOutputStreamDemo.java">
+        <entry file="file://$PROJECT_DIR$/src/com/day23/demo1/FileInputStreamDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="26" column="53" selection-start-line="26" selection-start-column="53" selection-end-line="26" selection-end-column="88" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/day23/demo/FileOutputStreamDemo1.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="71">
-              <caret line="14" column="30" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="65" />
+            <state relative-caret-position="25">
+              <caret line="25" column="51" lean-forward="true" selection-start-line="25" selection-start-column="51" selection-end-line="25" selection-end-column="86" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -54,10 +44,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/day23/demo/FileOutputStreamDemo3.java">
+        <entry file="file://$PROJECT_DIR$/src/com/day23/demo1/FileInputSteamDemo1.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="86">
-              <caret line="17" column="28" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
+            <state relative-caret-position="83">
+              <caret line="19" column="9" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -85,10 +75,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/day16/demo04/DateTest.java" />
-        <option value="$PROJECT_DIR$/src/com/day17/demo02/Test.java" />
-        <option value="$PROJECT_DIR$/src/com/day17/demo01/IntegerDemo.java" />
-        <option value="$PROJECT_DIR$/src/com/day17/demo04/ArraysDemo.java" />
         <option value="$PROJECT_DIR$/src/com/day17/demo05/BigDecimalDemo.java" />
         <option value="$PROJECT_DIR$/src/com/day18/ArrayListDemo.java" />
         <option value="$PROJECT_DIR$/src/com/day18/demo/Person.java" />
@@ -136,6 +122,10 @@
         <option value="$PROJECT_DIR$/src/com/day23/demo/FileOutputStreamDemo.java" />
         <option value="$PROJECT_DIR$/src/com/day23/demo/FileOutputStreamDemo1.java" />
         <option value="$PROJECT_DIR$/src/com/day23/demo/FileOutputStreamDemo3.java" />
+        <option value="$PROJECT_DIR$/src/com/day23/demo1/FileOutputStreamDemo.java" />
+        <option value="$PROJECT_DIR$/src/com/day23/demo1/InputStreamDemo.java" />
+        <option value="$PROJECT_DIR$/src/com/day23/demo1/FileInputStreamDemo.java" />
+        <option value="$PROJECT_DIR$/src/com/day23/demo1/FileInputSteamDemo1.java" />
       </list>
     </option>
   </component>
@@ -147,9 +137,9 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="44" />
-    <option name="y" value="459" />
+    <option name="y" value="453" />
     <option name="width" value="1234" />
-    <option name="height" value="328" />
+    <option name="height" value="333" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -191,6 +181,14 @@
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="day23" type="462c0819:PsiDirectoryNode" />
               <item name="demo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HelloWorld" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HelloWorld" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="day23" type="462c0819:PsiDirectoryNode" />
+              <item name="demo1" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -244,7 +242,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.FileOutputStreamDemo1">
+  <component name="RunManager" selected="Application.FileInputSteamDemo1">
     <configuration name="DiGuiDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.day22.demo03.DiGuiDemo" />
       <module name="HelloWorld" />
@@ -258,12 +256,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FileDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.day22.demo03.FileDemo" />
+    <configuration name="FileInputSteamDemo1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.day23.demo1.FileInputSteamDemo1" />
       <module name="HelloWorld" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.day22.demo03.*" />
+          <option name="PATTERN" value="com.day23.demo1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -271,12 +269,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FileDemo1 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.day22.demo02.FileDemo1" />
+    <configuration name="FileInputStreamDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.day23.demo1.FileInputStreamDemo" />
       <module name="HelloWorld" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.day22.demo02.*" />
+          <option name="PATTERN" value="com.day23.demo1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -312,11 +310,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FileInputSteamDemo1" />
+        <item itemvalue="Application.FileInputStreamDemo" />
         <item itemvalue="Application.FileOutputStreamDemo1" />
         <item itemvalue="Application.FileOutputStreamDemo" />
         <item itemvalue="Application.DiGuiDemo" />
-        <item itemvalue="Application.FileDemo" />
-        <item itemvalue="Application.FileDemo1 (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -348,14 +346,7 @@
       <workItem from="1557039085264" duration="2504000" />
       <workItem from="1557107906048" duration="6586000" />
       <workItem from="1557123569289" duration="2333000" />
-      <workItem from="1557200119686" duration="10267000" />
-    </task>
-    <task id="LOCAL-00022" summary="匿名对象的使用">
-      <created>1556025553317</created>
-      <option name="number" value="00022" />
-      <option name="presentableId" value="LOCAL-00022" />
-      <option name="project" value="LOCAL" />
-      <updated>1556025553317</updated>
+      <workItem from="1557200119686" duration="12955000" />
     </task>
     <task id="LOCAL-00023" summary="内部类的调用格式">
       <created>1556026410508</created>
@@ -693,14 +684,21 @@
       <option name="project" value="LOCAL" />
       <updated>1557214956522</updated>
     </task>
-    <option name="localTasksCounter" value="71" />
+    <task id="LOCAL-00071" summary="IO流的异常处理">
+      <created>1557215867174</created>
+      <option name="number" value="00071" />
+      <option name="presentableId" value="LOCAL-00071" />
+      <option name="project" value="LOCAL" />
+      <updated>1557215867174</updated>
+    </task>
+    <option name="localTasksCounter" value="72" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="114448000" />
+    <option name="totallyTimeSpent" value="117136000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="44" y="459" width="1234" height="328" extended-state="0" />
+    <frame x="44" y="482" width="1234" height="304" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4992248" visible="true" weight="0.17785235" />
@@ -712,7 +710,7 @@
       <window_info id="Favorites" order="6" sideWeight="0.5007752" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32931727" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.19767442" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.4528302" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -738,7 +736,6 @@
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="迭代器的使用和原理" />
     <MESSAGE value="集合" />
     <MESSAGE value="set接口" />
     <MESSAGE value="hashSet集合" />
@@ -763,44 +760,10 @@
     <MESSAGE value="方法的递归调用" />
     <MESSAGE value="FileOutputStream写入数据文件，学习父类方法，使用子类对象" />
     <MESSAGE value="FileOutputStream 文件的续写和换行问题" />
-    <option name="LAST_COMMIT_MESSAGE" value="FileOutputStream 文件的续写和换行问题" />
+    <MESSAGE value="IO流的异常处理" />
+    <option name="LAST_COMMIT_MESSAGE" value="IO流的异常处理" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/day18/demo/ArrayListDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="263">
-          <caret line="31" column="1" lean-forward="true" selection-start-line="31" selection-start-column="1" selection-end-line="31" selection-end-column="1" />
-          <folding>
-            <element signature="e#257#266#0" expanded="true" />
-            <element signature="e#600#608#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/day18/demo/Person.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="223">
-          <caret line="31" column="18" selection-start-line="31" selection-start-column="18" selection-end-line="31" selection-end-column="18" />
-          <folding>
-            <element signature="e#122#123#0" expanded="true" />
-            <element signature="e#149#150#0" expanded="true" />
-            <element signature="e#189#190#0" expanded="true" />
-            <element signature="e#221#222#0" expanded="true" />
-            <element signature="e#248#249#0" expanded="true" />
-            <element signature="e#274#275#0" expanded="true" />
-            <element signature="e#309#310#0" expanded="true" />
-            <element signature="e#339#340#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/day19/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/day19/demo03/Person.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
@@ -1180,6 +1143,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-10.0.1.jdk/Contents/Home/lib/src.zip!/java.base/java/io/FileOutputStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="97">
+          <caret line="226" column="9" lean-forward="true" selection-start-line="226" selection-start-column="9" selection-end-line="226" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/day23/demo/OutputStreamDemo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="93">
@@ -1189,7 +1159,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/day23/demo/FileOutputStreamDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
+        <state relative-caret-position="-6">
           <caret line="26" column="53" selection-start-line="26" selection-start-column="53" selection-end-line="26" selection-end-column="88" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1197,17 +1167,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-10.0.1.jdk/Contents/Home/lib/src.zip!/java.base/java/io/FileOutputStream.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="97">
-          <caret line="226" column="9" lean-forward="true" selection-start-line="226" selection-start-column="9" selection-end-line="226" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/day23/demo/FileOutputStreamDemo1.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="71">
-          <caret line="14" column="30" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="65" />
+        <state relative-caret-position="91">
+          <caret line="14" column="30" lean-forward="true" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="65" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1216,8 +1179,35 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/day23/demo/FileOutputStreamDemo3.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="86">
-          <caret line="17" column="28" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
+        <state relative-caret-position="-24">
+          <caret line="19" column="34" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/day23/demo1/InputStreamDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="8" column="42" selection-start-line="8" selection-start-column="42" selection-end-line="8" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/day23/demo1/FileInputStreamDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="25" column="51" lean-forward="true" selection-start-line="25" selection-start-column="51" selection-end-line="25" selection-end-column="86" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/day23/demo1/FileInputSteamDemo1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="83">
+          <caret line="19" column="9" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
