@@ -22,5 +22,6 @@ public class FileDemo {
         System.out.println(separator); // 向右 \ 目录名称分割，在Linux中是 /
 
 
+
     }
 }
