@@ -11,11 +11,21 @@ package com.day22.demo03;
  */
 public class DiGuiDemo {
     public static void main(String[] args) {
-        a();
+       int sum = getSum(100);
+        System.out.println(sum);
     }
 
-    public static void a(){
-        a();
+    /**
+     * 计算1+2+3+100和 = 5050
+     * 计算规律：
+     *   1+n，n+(n-1)+(n-2)
+     */
+    public static int getSum(int n) {
+        if (n == 1) {
+            return 1;
+        }
+        return n + getSum(n-1);
+
     }
 
 }
